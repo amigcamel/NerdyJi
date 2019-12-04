@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "==3.7.8"
+flake8-docstrings = "==1.4.0"
+
+[packages]
+markdown = "==2.6.11"
+django-contrib-comments = "==1.8.0"
+django = "==1.8.17"
+mezzanine = "==4.2.2"
+mezzanine-pagedown = "==1.0"
+google-api-python-client = "==1.6.1"
+django-modeltranslation = "==0.12"
+bleach = "==1.5.0"
+uwsgi = "==2.0.18"
+mysqlclient = "==1.4.4"
+
+[requires]
+python_version = "3.7"
